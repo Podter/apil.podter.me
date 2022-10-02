@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Link } from "svelte-routing";
   import apple from "../../assets/apple.jpg";
 </script>
 
@@ -17,4 +18,4 @@
 <h2>soo much text no logic</h2>
 <h2>if you will be interstng info how make site then: do not ask</h2>
 <h2>will be worse</h2>
-<button><a href="/sites">back</a></button>
+<button><Link to="/sites">back</Link></button>

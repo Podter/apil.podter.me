@@ -1,5 +1,6 @@
 <script lang="ts">
   import lawnbgm from "../../assets/lawnbgm.mp3";
+  import { Link } from "svelte-routing";
 </script>
 
 <svelte:head>
@@ -29,4 +30,4 @@
   <a href={lawnbgm}>audio</a>
 </audio>
 
-<button><a href="/sites">go back</a></button>
+<button><Link to="/sites">go back</Link></button>

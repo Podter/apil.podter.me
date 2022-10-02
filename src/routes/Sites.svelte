@@ -1,26 +1,30 @@
+<script lang="ts">
+  import { Link } from "svelte-routing";
+</script>
+
 <svelte:head>
   <title>All sites</title>
 </svelte:head>
 
-<button><a href="/sites/rickroll">Contact data</a></button>
+<button><Link to="/sites/rickroll">Contact data</Link></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="/sites/valve">free VALVe</a></button>
+<button><Link to="/sites/valve">free VALVe</Link></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
 <button><a href="https://wikipedia.org">Version 0.109.4</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="/sites/daniel">Amogus</a></button>
+<button><Link to="/sites/daniel">Amogus</Link></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="/sites/interst">SO INTERST SITE</a></button>
+<button><Link to="/sites/interst">SO INTERST SITE</Link></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="/sites/memes">Memes</a></button>
+<button><Link to="/sites/memes">Memes</Link></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="/sites/game">test button</a></button>
+<button><Link to="/sites/game">test button</Link></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="/sites/audio">audio test</a></button>
+<button><Link to="/sites/audio">audio test</Link></button>

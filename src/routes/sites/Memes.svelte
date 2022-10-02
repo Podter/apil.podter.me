@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { Link } from "svelte-routing";
+
   import dietzNuts from "../../assets/dietz_nuts.png";
   import amogus from "../../assets/amogus.png";
   import chikibamboni from "../../assets/chikibamboni.jpg";
@@ -18,7 +20,7 @@
 </svelte:head>
 
 <center>
-  <button><a href="/sites">Back</a></button>
+  <button><Link to="/sites">Back</Link></button>
 </center>
 
 <center>
@@ -74,5 +76,5 @@
 <h1>Vjyx idk what this is - autor of site apl</h1>
 
 <center>
-  <button><a href="/sites">back</a></button>
+  <button><Link to="/sites">back</Link></button>
 </center>

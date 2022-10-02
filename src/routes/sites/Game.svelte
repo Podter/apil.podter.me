@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { Link } from "svelte-routing";
+
   let attempts: number = -1;
   let randomNumber: number = Math.random();
   let input: string = "";
@@ -76,4 +78,4 @@
 
 <center><textarea bind:value={input} /></center>
 
-<button><a href="/sites">go back</a></button>
+<button><Link to="/sites">go back</Link></button>
