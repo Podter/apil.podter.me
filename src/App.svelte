@@ -8,6 +8,7 @@
   import Daniel from "./routes/sites/Daniel.svelte";
   import Interst from "./routes/sites/Interst.svelte";
   import Memes from "./routes/sites/Memes.svelte";
+  import Game from "./routes/sites/Game.svelte";
 
   export let url: string = "";
 </script>
@@ -20,4 +21,5 @@
   <Route path="/sites/daniel" component={Daniel} />
   <Route path="/sites/interst" component={Interst} />
   <Route path="/sites/memes" component={Memes} />
+  <Route path="/sites/game" component={Game} />
 </Router>

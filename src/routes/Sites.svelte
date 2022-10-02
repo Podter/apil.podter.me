@@ -16,7 +16,7 @@
 <button><a href="/sites/memes">Memes</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="eng canvas game.html">test button</a></button>
+<button><a href="/sites/game">test button</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
 <button><a href="eng audio.html">audio test</a></button>
