@@ -42,7 +42,11 @@
   <title>Gaem test</title>
 </svelte:head>
 
-<h1>test game</h1>
+{#if attempts >= 0}
+  <h1>test game</h1>
+{:else}
+  <h1>guess the number game</h1>
+{/if}
 
 <center>
   <!-- svelte-ignore a11y-missing-attribute -->
@@ -59,7 +63,7 @@
   <center><h2 style={`color: ${textColor};`}>{text}</h2></center>
 {/if}
 
-{#if attempts >= 3}<center
+{#if attempts >= 5}<center
     ><h3>
       tip 1: this is guess the number game, put any number in there
     </h3></center
