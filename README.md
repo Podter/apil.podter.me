@@ -1,6 +1,6 @@
 # apil-website
 
-[![GitHub deployments](https://img.shields.io/github/deployments/Podter/apil-website/Production?label=vercel&logo=vercel&logoColor=white&style=for-the-badge)](http://apil.podter.xyz/)
+[![GitHub deployments](https://img.shields.io/github/deployments/Podter/apil-website/Production?label=vercel&logo=vercel&logoColor=white&style=for-the-badge)](https://apil.podter.xyz/)
 
 Remake version of Apil's website, by Podter using Svelte
 
