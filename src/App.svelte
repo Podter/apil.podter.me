@@ -9,6 +9,7 @@
   import Interst from "./routes/sites/Interst.svelte";
   import Memes from "./routes/sites/Memes.svelte";
   import Game from "./routes/sites/Game.svelte";
+  import Audio from "./routes/sites/Audio.svelte";
 
   export let url: string = "";
 </script>
@@ -22,4 +23,5 @@
   <Route path="/sites/interst" component={Interst} />
   <Route path="/sites/memes" component={Memes} />
   <Route path="/sites/game" component={Game} />
+  <Route path="/sites/audio" component={Audio} />
 </Router>
