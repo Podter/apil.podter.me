@@ -1,21 +1,25 @@
 <script lang="ts">
-  let attempts: number = 0;
+  let attempts: number = -1;
   let randomNumber: number = Math.random();
   let input: string = "";
   let text: string = "";
   let textColor: string = "black";
 
-  console.log(randomNumber);
-
   function onClick() {
     const numberInput: number = parseFloat(input);
     const currentAttempts: number = attempts;
-    if (numberInput) {
+    if (currentAttempts === -1) {
+      console.clear();
+      console.log(randomNumber);
+      attempts++;
+      return;
+    } else if (numberInput) {
       if (numberInput === randomNumber) {
         textColor = "black";
         text = `Correct! The number is ${numberInput} Attempts: ${currentAttempts}`;
         attempts = 0;
         randomNumber = Math.random();
+        console.clear();
         console.log(randomNumber);
         return;
       } else {
@@ -27,6 +31,7 @@
     } else {
       textColor = "red";
       text = `Numbers only!`;
+      return;
     }
   }
 </script>
@@ -38,7 +43,11 @@
   <button on:click={onClick}><a>press</a></button>
 </center>
 
-<center><h1>Attempts: {attempts}</h1></center>
+{#if attempts >= 0}
+  <center><h1>Attempts: {attempts}</h1></center>
+{:else}
+  <center><h1>Total:</h1></center>
+{/if}
 
 {#if text}
   <center><h2 style={`color: ${textColor};`}>{text}</h2></center>
