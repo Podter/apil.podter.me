@@ -13,6 +13,10 @@
   import vjyx from "../../assets/vjyx.png";
 </script>
 
+<svelte:head>
+  <title>Memes.org</title>
+</svelte:head>
+
 <center>
   <button><a href="/sites">Back</a></button>
 </center>

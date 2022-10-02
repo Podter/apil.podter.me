@@ -36,6 +36,10 @@
   }
 </script>
 
+<svelte:head>
+  <title>Gaem test</title>
+</svelte:head>
+
 <h1>test game</h1>
 
 <center>

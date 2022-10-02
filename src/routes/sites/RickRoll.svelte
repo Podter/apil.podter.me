@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Rick Roll</title>
+</svelte:head>
+
 <iframe
   width="560"
   height="315"

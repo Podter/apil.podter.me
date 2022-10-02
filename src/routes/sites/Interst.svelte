@@ -2,6 +2,10 @@
   import apple from "../../assets/apple.jpg";
 </script>
 
+<svelte:head>
+  <title>КРУТАЯ СТАИТЯ</title>
+</svelte:head>
+
 <h1>
   Its soo interest site if you want read moar here text pay -42 cent in rubles
   china or you will be taken by china people

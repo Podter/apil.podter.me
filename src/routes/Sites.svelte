@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>All sites</title>
+</svelte:head>
+
 <button><a href="/sites/rickroll">Contact data</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />

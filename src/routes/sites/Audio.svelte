@@ -2,6 +2,10 @@
   import lawnbgm from "../../assets/lawnbgm.mp3";
 </script>
 
+<svelte:head>
+  <title>audio</title>
+</svelte:head>
+
 <h1>audio test</h1>
 
 <audio autoplay>
