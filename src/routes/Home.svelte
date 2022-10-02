@@ -4,6 +4,10 @@
   import apilcatWithDonut from "../assets/apilcat_with_donut.png";
 </script>
 
+<svelte:head>
+  <title>BREKING NEWS</title>
+</svelte:head>
+
 <h1>Hello world!</h1>
 
 <h1>Apil amogusovich</h1>
@@ -26,14 +30,15 @@
 
 <h2>Capyright 2090 apl softek</h2>
 
-<!-- <iframe
-  src="./eng all sites.html"
+<iframe
+  src="/sites"
   width="500px"
   height="650px"
   frameborder="0"
   title="all sites"
-/> -->
+/>
 
-<br />
+<!-- svelte-ignore a11y-missing-content -->
+<h1 />
 
 <button><a href="https://podter.xyz">go back xd</a></button>
