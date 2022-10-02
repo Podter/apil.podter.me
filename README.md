@@ -4,6 +4,8 @@
 
 Remake version of Apil's website, by Podter using Svelte
 
+The original version lives in the [original branch](https://github.com/Podter/apil-website/tree/original)
+
 ## Development
 
 Clone this repo and make sure you have Node.js installed
