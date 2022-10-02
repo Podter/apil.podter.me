@@ -10,7 +10,7 @@
 <button><a href="/sites/daniel">Amogus</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="eng site 2.html">SO INTERST SITE</a></button>
+<button><a href="/sites/interst">SO INTERST SITE</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
 <button><a href="eng memes.html">Memes</a></button>

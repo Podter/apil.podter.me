@@ -6,6 +6,7 @@
   import RickRoll from "./routes/sites/RickRoll.svelte";
   import Valve from "./routes/sites/Valve.svelte";
   import Daniel from "./routes/sites/Daniel.svelte";
+  import Interst from "./routes/sites/Interst.svelte";
 
   export let url: string = "";
 </script>
@@ -16,4 +17,5 @@
   <Route path="/sites/rickroll" component={RickRoll} />
   <Route path="/sites/valve" component={Valve} />
   <Route path="/sites/daniel" component={Daniel} />
+  <Route path="/sites/interst" component={Interst} />
 </Router>
