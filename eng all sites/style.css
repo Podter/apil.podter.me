@@ -1,0 +1,54 @@
+	body{
+        background-image: url('mc bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+		color: black;
+		font-family: cursive;
+	}
+	ul{
+		font-size: 30px;
+	}
+	p b{
+		font-size: 30px;
+	}
+	h1{
+		font-size: 50px;
+	}
+	p{
+		font-size: 40px;
+	}
+	d{
+		font-size: 30px;
+	}
+	a:hover{
+		background-color: #C6F91F;
+		text-decoration: none;
+	}
+	a{
+		font-size: 30px;
+		text-decoration: none;
+		font-family: cursive;
+		color: #DDF45B;
+	}
+	a:active{
+		color: red;
+	}
+	a[tabindex]:focus{
+		color: red;
+		outline: none;
+	}
+	a:visited{
+		color: red;
+	}
+	button{
+		background-color: #7DDF64;
+	}
+	button:hover{
+		background-color: #C6F91F;
+	}
+	textarea{
+		font-size: 30px;
+		color: red;
+		background-color: yellow;
+		font-family: cursive;
+	}

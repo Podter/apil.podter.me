@@ -1,34 +1,9 @@
-# apil-website
+# apil-website (Original)
 
-Remake version of Apil's website, by Podter using Svelte
+Original version of Apil's website
 
-## Development
+Made and uploaded by himself on a Discord server as `.zip` file
 
-Clone this repo and make sure you have Node.js installed
+![his message](assets/message.png)
 
-Install dependencies
-
-```bash
-# npm
-npm install
-# yarn
-yarn
-```
-
-Start development server
-
-```bash
-# npm
-npm run dev
-# yarn
-yarn dev
-```
-
-## Building
-
-```bash
-# npm
-npm run build
-# yarn
-yarn build
-```
+[Zip download](https://cdn.discordapp.com/attachments/809805835890851920/963773001340440596/eng_apils_sites.zip)
