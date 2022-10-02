@@ -7,6 +7,7 @@
   import Valve from "./routes/sites/Valve.svelte";
   import Daniel from "./routes/sites/Daniel.svelte";
   import Interst from "./routes/sites/Interst.svelte";
+  import Memes from "./routes/sites/Memes.svelte";
 
   export let url: string = "";
 </script>
@@ -18,4 +19,5 @@
   <Route path="/sites/valve" component={Valve} />
   <Route path="/sites/daniel" component={Daniel} />
   <Route path="/sites/interst" component={Interst} />
+  <Route path="/sites/memes" component={Memes} />
 </Router>

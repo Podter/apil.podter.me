@@ -13,7 +13,7 @@
 <button><a href="/sites/interst">SO INTERST SITE</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="eng memes.html">Memes</a></button>
+<button><a href="/sites/memes">Memes</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
 <button><a href="eng canvas game.html">test button</a></button>
