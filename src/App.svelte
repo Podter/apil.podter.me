@@ -1,45 +1,39 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  import strongApil from "./assets/strong_apil.png";
+  import junimoDance from "./assets/junimo_dance_unscreen.gif";
+  import apilcatWithDonut from "./assets/apilcat_with_donut.png";
 </script>
 
-<main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank"> 
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank"> 
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
+<h1>Hello world!</h1>
 
-  <div class="card">
-    <Counter />
-  </div>
+<h1>Apil amogusovich</h1>
 
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
+<p>Best apil ever</p>
 
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
-</main>
+<h1>All loves apples</h1>
 
-<style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
-</style>
+<p><b>So importnt news</b></p>
+<ul>
+  <img src={strongApil} width="200" alt="strong apil" />
+  <li>saddfsad</li>
+  <li>asdfds</li>
+  <li>asdfgds</li>
+</ul>
+<h1>Breking news end</h1>
+
+<img src={junimoDance} width="300px" alt="junimo dance" />
+<img src={apilcatWithDonut} width="300px" alt="apilcat with donut" />
+
+<h2>Capyright 2090 apl softek</h2>
+
+<!-- <iframe
+  src="./eng all sites.html"
+  width="500px"
+  height="650px"
+  frameborder="0"
+  title="all sites"
+/> -->
+
+<br />
+
+<button><a href="https://podter.xyz">go back xd</a></button>
