@@ -7,7 +7,7 @@
 <button><a href="https://wikipedia.org">Version 0.109.4</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
-<button><a href="eng daniel.html">Amogus</a></button>
+<button><a href="/sites/daniel">Amogus</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
 <button><a href="eng site 2.html">SO INTERST SITE</a></button>
