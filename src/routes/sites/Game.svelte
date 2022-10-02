@@ -43,9 +43,9 @@
 </svelte:head>
 
 {#if attempts >= 0}
-  <h1>test game</h1>
-{:else}
   <h1>guess the number game</h1>
+{:else}
+  <h1>test game</h1>
 {/if}
 
 <center>
