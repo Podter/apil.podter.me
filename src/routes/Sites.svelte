@@ -1,4 +1,4 @@
-<button><a href="rick roll.mp4">Contact data</a></button>
+<button><a href="/sites/rickroll">Contact data</a></button>
 <!-- svelte-ignore a11y-missing-content -->
 <h1 />
 <button><a href="valve.mp4">free VALVe</a></button>
