@@ -8,7 +8,7 @@ The original version lives in the [original branch](https://github.com/Podter/ap
 
 ## Development
 
-Clone this repo and make sure you have Node.js installed
+Clone this repo and make sure you have Node.js installed (LTS is recommended)
 
 Install dependencies
 
