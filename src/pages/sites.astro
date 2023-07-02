@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+import pages from "../constants/pages";
+---
+
+<Layout title="All sites">
+  {
+    Object.entries(pages).map(([path, { name }]) => (
+      <>
+        <button>
+          <a href={path}>{name}</a>
+        </button>
+        <h1 />
+      </>
+    ))
+  }
+</Layout>

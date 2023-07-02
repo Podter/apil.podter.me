@@ -1,38 +1,25 @@
-# apil-website
+# apil.podter.me
 
-[![GitHub deployments](https://img.shields.io/github/deployments/Podter/apil-website/Production?label=vercel&logo=vercel&logoColor=white&style=for-the-badge)](https://apil.podter.xyz/)
+Remake version of Apil's website, by Podter using Astro
 
-Remake version of Apil's website, by Podter using Svelte
+https://apil.podter.me/
 
-The original version lives in the [original branch](https://github.com/Podter/apil-website/tree/original)
+The original version lives in the [original branch](https://github.com/Podter/apil.podter.me/tree/original)
 
-## Development
+## Getting Started
 
-Clone this repo and make sure you have Node.js installed (LTS is recommended)
-
-Install dependencies
+First, run the development server:
 
 ```bash
-# npm
-npm install
-# yarn
-yarn
-```
-
-Start development server
-
-```bash
-# npm
 npm run dev
-# yarn
+# or
 yarn dev
+# or
+pnpm dev
 ```
 
-## Building
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-# npm
-npm run build
-# yarn
-yarn build
-```
+## License
+
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more information.

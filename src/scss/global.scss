@@ -1,51 +1,63 @@
 body {
-  background-image: url("./assets/mc_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
   font-family: cursive;
 }
+
 ul {
   font-size: 30px;
 }
-p b {
-  font-size: 30px;
-}
+
 h1 {
   font-size: 50px;
 }
+
 p {
   font-size: 40px;
+
+  b {
+    font-size: 30px;
+  }
 }
+
 d {
   font-size: 30px;
 }
-a:hover {
-  background-color: #c6f91f;
-  text-decoration: none;
-}
+
 a {
   font-size: 30px;
   text-decoration: none;
   font-family: cursive;
   color: #ddf45b;
+
+  &:hover {
+    background-color: #c6f91f;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: red;
+  }
+
+  &:visited {
+    color: red;
+  }
+
+  &[tabindex]:focus {
+    color: red;
+    outline: none;
+  }
 }
-a:active {
-  color: red;
-}
-a[tabindex]:focus {
-  color: red;
-  outline: none;
-}
-a:visited {
-  color: red;
-}
+
 button {
   background-color: #7ddf64;
+
+  &:hover {
+    background-color: #c6f91f;
+  }
 }
-button:hover {
-  background-color: #c6f91f;
-}
+
 textarea {
   font-size: 30px;
   color: red;

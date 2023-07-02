@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { Link } from "svelte-routing";
-
   let attempts: number = -1;
   let randomNumber: number = Math.random();
   let input: string = "";
@@ -38,10 +36,6 @@
   }
 </script>
 
-<svelte:head>
-  <title>Gaem test</title>
-</svelte:head>
-
 {#if attempts >= 0}
   <h1>guess the number game</h1>
 {:else}
@@ -63,23 +57,23 @@
   <center><h2 style={`color: ${textColor};`}>{text}</h2></center>
 {/if}
 
-{#if attempts >= 5}<center
-    ><h3>
-      tip 1: this is guess the number game, put any number in there
-    </h3></center
-  >{/if}
-{#if attempts >= 10}<center
-    ><h3>
-      tip 2: the number is between 0-1 (like 0.009051650113018894)
-    </h3></center
-  >{/if}
-{#if attempts >= 20}<center
-    ><h3>
+{#if attempts >= 5}
+  <center>
+    <h3>tip 1: this is guess the number game, put any number in there</h3>
+  </center>
+{/if}
+{#if attempts >= 10}
+  <center>
+    <h3>tip 2: the number is between 0-1 (like 0.009051650113018894)</h3>
+  </center>
+{/if}
+{#if attempts >= 20}
+  <center>
+    <h3>
       tip 3: press ctrl + shift + i to open devtools, go to console tab and you
       will see the number! put that number in there
-    </h3></center
-  >{/if}
+    </h3>
+  </center>
+{/if}
 
 <center><textarea bind:value={input} /></center>
-
-<button><Link to="/sites">go back</Link></button>

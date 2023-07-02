@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from 'astro:assets';
+import { memes } from "../constants/memes";
+import Meme from "../components/Meme.astro";
+import dietzNuts from "../assets/dietz_nuts.png";
+import Back from "../components/Back.svelte";
+---
+
+<Layout title="Memes.org">
+  <center>
+    <Back text="Back" client:visible />
+  </center>
+
+  <center>
+    <Image src={dietzNuts} width={350} alt="dietz nuts" />
+  </center>
+
+  <h1>TOP 10 MEMES 2033223253 YEAR</h1>
+
+  {memes.map((meme) => <Meme {...meme} />)}
+
+  <center>
+    <Back text="back" client:visible />
+  </center>
+</Layout>

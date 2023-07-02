@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SvelteGame from "../components/Game.svelte";
+import Back from "../components/Back.svelte";
+---
+
+<Layout title="Gaem test">
+  <SvelteGame client:load />
+  <Back client:visible />
+</Layout>
