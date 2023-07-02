@@ -13,7 +13,7 @@ import vjyx from "../assets/memes/vjyx.png";
 export type Meme = {
   title: string;
   description: string;
-  img: string;
+  img: ImageMetadata;
   alt: string;
   width: number;
 };

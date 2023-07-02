@@ -1,5 +1,6 @@
 ---
 import type { Meme } from "../constants/memes";
+import { Image } from "astro:assets";
 
 export type Props = Meme;
 
@@ -7,5 +8,5 @@ const { title, description, img, alt, width } = Astro.props;
 ---
 
 <h1>{title}</h1>
-<img src={img} {width} {alt} />
+<Image src={img} {width} {alt} />
 <h1>{description}</h1>

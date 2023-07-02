@@ -1,5 +1,9 @@
 ---
 import "../scss/global.scss";
+import { getImage } from "astro:assets";
+import mcBg from "../assets/mc_bg.jpg";
+
+const optimizedBackground = await getImage({ src: mcBg });
 
 export interface Props {
 	title: string;
@@ -18,7 +22,11 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body
+		style={{
+			backgroundImage: `url(${optimizedBackground.src})`,
+		}}
+	>
 		<slot />
 	</body>
 </html>

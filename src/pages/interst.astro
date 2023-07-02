@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import apple from "../assets/apple.jpg";
 import Back from "../components/Back.svelte";
+import { Image } from "astro:assets";
 ---
 
 <Layout title="КРУТАЯ СТАИТЯ">
@@ -10,7 +11,7 @@ import Back from "../components/Back.svelte";
     china or you will be taken by china people
   </h1>
   <center>
-    <img src={apple} height="350" width="350" alt="apple" />
+    <Image src={apple} height={350} width={350} alt="apple" />
   </center>
   <h2>Interestng site its soo yummy recept easy:</h2>
   <h2>soo much text no logic</h2>

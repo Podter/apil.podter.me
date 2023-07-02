@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
 
 import strongApil from "../assets/strong_apil.png";
 import junimoDance from "../assets/junimo_dance_unscreen.gif";
@@ -17,15 +18,15 @@ import apilcatWithDonut from "../assets/apilcat_with_donut.png";
 
 	<p><b>So importnt news</b></p>
 	<ul>
-		<img src={strongApil} width="200" alt="strong apil" />
+		<Image src={strongApil} width={200} alt="strong apil" />
 		<li>saddfsad</li>
 		<li>asdfds</li>
 		<li>asdfgds</li>
 	</ul>
 	<h1>Breking news end</h1>
 
-	<img src={junimoDance} width="300px" alt="junimo dance" />
-	<img src={apilcatWithDonut} width="300px" alt="apilcat with donut" />
+	<Image src={junimoDance} width={300} alt="junimo dance" />
+	<Image src={apilcatWithDonut} width={300} alt="apilcat with donut" />
 
 	<h2>Capyright 2090 apl softek</h2>
 
