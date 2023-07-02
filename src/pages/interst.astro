@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import apple from "../assets/apple.jpg";
+import Back from "../components/Back.svelte";
 ---
 
 <Layout title="КРУТАЯ СТАИТЯ">
@@ -15,5 +16,5 @@ import apple from "../assets/apple.jpg";
   <h2>soo much text no logic</h2>
   <h2>if you will be interstng info how make site then: do not ask</h2>
   <h2>will be worse</h2>
-  <button><a href="/sites">back</a></button>
+  <Back text="back" client:visible />
 </Layout>

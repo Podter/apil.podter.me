@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import lawnbgm from "../assets/lawnbgm.mp3";
+import Back from "../components/Back.svelte";
 ---
 
 <Layout title="audio">
@@ -25,5 +26,5 @@ import lawnbgm from "../assets/lawnbgm.mp3";
     <a href={lawnbgm}>audio</a>
   </audio>
 
-  <button><a href="/sites">go back</a></button>
+  <Back client:visible />
 </Layout>

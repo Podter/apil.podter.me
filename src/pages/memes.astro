@@ -3,11 +3,12 @@ import Layout from "../layouts/Layout.astro";
 import { memes } from "../constants/memes";
 import Meme from "../components/Meme.astro";
 import dietzNuts from "../assets/dietz_nuts.png";
+import Back from "../components/Back.svelte";
 ---
 
 <Layout title="Memes.org">
   <center>
-    <button><a href="/sites">Back</a></button>
+    <Back text="Back" client:visible />
   </center>
 
   <center>
@@ -19,6 +20,6 @@ import dietzNuts from "../assets/dietz_nuts.png";
   {memes.map((meme) => <Meme {...meme} />)}
 
   <center>
-    <button><a href="/sites">back</a></button>
+    <Back text="back" client:visible />
   </center>
 </Layout>
