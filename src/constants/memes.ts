@@ -1,14 +1,14 @@
-import amogus from "../assets/amogus.png";
-import chikibamboni from "../assets/chikibamboni.jpg";
-import angli from "../assets/angli.png";
-import mega from "../assets/mega.jpg";
-import mishka from "../assets/mishka.jpg";
-import mister from "../assets/mister.jpg";
-import nebudi from "../assets/nebudi.png";
-import sad from "../assets/sad.png";
-import kakto from "../assets/kakto.jpg";
-import troll from "../assets/troll.png";
-import vjyx from "../assets/vjyx.png";
+import amogus from "../assets/memes/amogus.png";
+import chikibamboni from "../assets/memes/chikibamboni.jpg";
+import angli from "../assets/memes/angli.png";
+import mega from "../assets/memes/mega.jpg";
+import mishka from "../assets/memes/mishka.jpg";
+import mister from "../assets/memes/mister.jpg";
+import nebudi from "../assets/memes/nebudi.png";
+import sad from "../assets/memes/sad.png";
+import kakto from "../assets/memes/kakto.jpg";
+import troll from "../assets/memes/troll.png";
+import vjyx from "../assets/memes/vjyx.png";
 
 export type Meme = {
   title: string;
