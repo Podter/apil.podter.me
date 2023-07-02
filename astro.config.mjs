@@ -7,16 +7,5 @@ import robotsTxt from "astro-robots-txt";
 // https://astro.build/config
 export default defineConfig({
   site: "http://localhost:3000",
-  integrations: [
-    svelte(),
-    sitemap(),
-    robotsTxt({
-      policy: [
-        {
-          userAgent: "*",
-          disallow: ["/"],
-        },
-      ],
-    }),
-  ],
+  integrations: [svelte(), sitemap(), robotsTxt()],
 });
